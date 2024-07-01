@@ -22,7 +22,7 @@ function createBoxes(amount) {
     box.style.width = `${boxSize}px`;
     box.style.height = `${boxSize}px`;
     box.style.backgroundColor = getRandomHexColor();
-    boxesContainer.appendChild(box);
+    fragment.appendChild(box);
     boxSize += 10;
   }
   boxesContainer.appendChild(fragment);
